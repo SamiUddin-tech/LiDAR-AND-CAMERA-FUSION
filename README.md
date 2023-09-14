@@ -16,4 +16,4 @@ In this project project my focus is on Camera and LiDARs (IMAGES and POINT CLOUD
 Today, Cameras are very scalable and integrated in every Self Driving Car.
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/373d00c9-d679-4543-bf05-33cf695bbd31)
-Picture was adopted from [here](https://electrek.co/2016/10/20/tesla-new-autopilot-hardware-suite-camera-nvidia-tesla-vision/)
+Picture is adopted from [here](https://electrek.co/2016/10/20/tesla-new-autopilot-hardware-suite-camera-nvidia-tesla-vision/)
