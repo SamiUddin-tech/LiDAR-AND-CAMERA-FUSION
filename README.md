@@ -5,7 +5,7 @@ LiDAR is used more and more in almost every robotics startup, and mixing it with
 
 ## Three Most Important things about Sensor Fusion
 In this Project, I have built my understanding around three most important things about Sensor Fusion:
-1. About Sensors and Sensor Fusion
+1. Sensors and Sensor Fusion
 2. Early Fusion
 3. Late Fusion
 
