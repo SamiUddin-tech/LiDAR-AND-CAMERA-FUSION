@@ -12,7 +12,7 @@ In this Project, I have built my understanding around three most important thing
 3. Late Fusion
 
 ## Sensors and  Sensor Fusion
-In this project project my focus is on Cameras and LiDARs (IMAGES and POINT CLOUDS), which are being used by almost every Autonomous Vehicle Company.
+In this project, my focus is on Cameras and LiDARs (IMAGES and POINT CLOUDS), which are being used by almost every Self Driving Car Company.
 
 ### Cameras:
 Today, Cameras are very scalable and integrated in every Self Driving Car.
