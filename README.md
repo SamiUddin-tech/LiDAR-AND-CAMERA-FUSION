@@ -1,6 +1,6 @@
 # LiDAR_Camera_Fusion
 
-In this Project I practiced some most advanced skills that Self Driving Car Engineers use to fuse LiDARs with Cameras.
+In this Project, I practiced some most advanced skills that Self Driving Car Engineers use to fuse LiDARs with Cameras.
 LiDAR is used more and more in almost every robotics startup, and mixing it with a camera is really cool!
 
 **Note:** There is no such a thing like *self driving car engineer*. There are *Perception Engineers*, *Sensor Fusion Engineers*, *Control Engineers* and so on.
