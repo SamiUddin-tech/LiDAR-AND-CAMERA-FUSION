@@ -45,5 +45,13 @@ LiDAR generate point clouds. Point clouds are collections of points, and each po
 
 Let's take a look at the following video to understand more about Point Clouds, I captured these point clouds with [Basler Blaze 101 Time of Flight Camera](https://www.baslerweb.com/en/products/cameras/3d-cameras/basler-blaze/blaze-101/). To know more about this check my project Safe Rail.
 
+### Camera and LiDAR Fusion:
+
+A self-driving car typically has:
+
+*Multiple Cameras:* These cameras have different angles and capabilities. Some can see far with a narrow view, while others have a wider view but shorter range.
+
+*LiDARs:* These sensors detect objects around the car and precisely estimate their 3D positions.
+
 ### Sensor Fusion:
 
