@@ -6,7 +6,7 @@ LiDAR is used more and more in almost every robotics startup, and mixing it with
 **Note:** There is no such a thing like *self driving car engineer*. There are *Perception Engineers*, *Sensor Fusion Engineers*, *Control Engineers* and so on.
 
 ## Three Most Important things about Sensor Fusion
-In this Project, I have built my understanding around three most important things about Sensor Fusion:
+In this Project, I have built my understanding around three most important things about *Sensor Fusion*:
 1. Sensors and Sensor Fusion
 2. Early Fusion
 3. Late Fusion
