@@ -55,7 +55,7 @@ A self-driving car typically has:
 
 ### Sensor Fusion:
 
-## Early Fusion
+## 2. Early Fusion
 
 To perform early fusion I performed three steps:
 
