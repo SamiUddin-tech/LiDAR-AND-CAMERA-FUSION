@@ -39,3 +39,11 @@ So, This is how LiDAR sensors work:
 So, LiDAR uses the time it takes for light to hit something and come back to figure out how far away that thing is. This helps create detailed maps of the surroundings and is used in technologies like autonomous cars and mapping.
 Above Picture is taken from [here](https://www.mathworks.com/help/lidar/ug/lidar-processing-overview.html)
 
+### Point Clouds:
+
+LiDAR generate point clouds. Point clouds are collections of points, and each point has its XYZ position. This allows us to accurately know the depth and distance of every obstacle or object in a 3D space.
+
+Let's take a look at the following video to understand more about Point Clouds, I captured these point clouds with [Basler Blaze 101 Time of Flight Camera](https://www.baslerweb.com/en/products/cameras/3d-cameras/basler-blaze/blaze-101/). To know more about this check my project Safe Rail.
+
+### Sensor Fusion:
+
