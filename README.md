@@ -26,3 +26,16 @@ Another example of my OpenCV AI Kit with Depth [OAK-D](https://shop.luxonis.com/
 LiDAR (Light Detection and Ranging) 
 
 In above picture, which is taken from [here](https://www.businessinsider.com/how-does-googles-waymo-self-driving-car-work-graphic-2017-1), it's the [waymo](https://waymo.com/)'s autonomous vehicle. 
+
+So, This is how LiDAR sensors work:
+
+![lidar_working](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/95ea83b8-9f84-4520-ad23-dcb538bf7fd5)
+
+1. They send out a beam of light.
+2. This light beam hits an object and bounces back.
+3. LiDAR measures how long it takes for the light to bounce back.
+4. Using the time it takes (time-of-flight), LiDAR calculates the distance to the object.
+
+So, LiDAR uses the time it takes for light to hit something and come back to figure out how far away that thing is. This helps create detailed maps of the surroundings and is used in technologies like autonomous cars and mapping.
+Above Picture is taken from [here](https://www.mathworks.com/help/lidar/ug/lidar-processing-overview.html)
+
