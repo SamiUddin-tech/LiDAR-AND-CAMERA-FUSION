@@ -1,7 +1,7 @@
 # LiDAR_Camera_Fusion
 
 In this Project I practiced some most advanced skills that Self Driving Car Engineers use to fuse LiDARs with Cameras.
-LiDAR is used more and more in our daily lives, and mixing it with a camera is really cool!
+LiDAR is used more and more in almost every robotics startup, and mixing it with a camera is really cool!
 
 ## Three Most Important things about Sensor Fusion
 In this Project, I have built my understanding around three most important things about Sensor Fusion:
