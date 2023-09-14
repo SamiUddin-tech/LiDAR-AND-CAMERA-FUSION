@@ -55,3 +55,11 @@ A self-driving car typically has:
 
 ### Sensor Fusion:
 
+## Early Fusion
+
+To perform early fusion I performed three steps:
+
+1. Project the Point Clouds (3D) to the Image(2D)
+2. Detect Obstacles in 2D (Camera)
+3. Fuse the Results
+
