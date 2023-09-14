@@ -19,3 +19,5 @@ Today, Cameras are very scalable and integrated in every Self Driving Car.
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/373d00c9-d679-4543-bf05-33cf695bbd31)
 In above Picture, which is adopted from [here](https://electrek.co/2016/10/20/tesla-new-autopilot-hardware-suite-camera-nvidia-tesla-vision/), it's the Tesla's Self Driving Vehicle Model. And notice that we have 3 cameras, one in left, one in right and one in the center, side cameras are generally called stereo pairs which makes it easy to estimate disance to an obstacle.
+
+Another example of my OpenCV AI Kit with Depth (OAK-D) which is architectured by Brandon Gillen (Late) Founder of LUXONIS Robotic Perception. Just Notice the Object Detection and Depth Perception (X,Y,Z), we get with OAK-D.
