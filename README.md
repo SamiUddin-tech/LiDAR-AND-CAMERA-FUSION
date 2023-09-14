@@ -4,7 +4,7 @@ In this Project I practiced some most advanced skills that Self Driving Car Engi
 LiDAR is used more and more in our daily lives, and mixing it with a camera is really cool!
 
 ## Three Most Important things about Sensor Fusion
-In this Project, I have built my understanding about three most important things about Sensor Fusion:
+In this Project, I have built my understanding around three most important things about Sensor Fusion:
 1. About Sensors and Sensor Fusion
 2. Early Fusion
 3. Late Fusion
