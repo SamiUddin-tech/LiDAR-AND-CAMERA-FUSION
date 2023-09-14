@@ -49,9 +49,9 @@ Let's take a look at the following video to understand more about Point Clouds, 
 
 A self-driving car typically has:
 
-*Multiple Cameras:* These cameras have different angles and capabilities. Some can see far with a narrow view, while others have a wider view but shorter range.
+**Multiple Cameras:** These cameras have different angles and capabilities. Some can see far with a narrow view, while others have a wider view but shorter range.
 
-*LiDARs:* These sensors detect objects around the car and precisely estimate their 3D positions.
+**LiDARs:** These sensors detect objects around the car and precisely estimate their 3D positions.
 
 ### Sensor Fusion:
 
