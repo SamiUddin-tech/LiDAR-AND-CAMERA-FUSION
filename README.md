@@ -88,7 +88,7 @@ So here is the list of Sensors we are using data of.
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/d48ba8f8-98b9-4651-b1ce-9b6b1a2c9bea)
 
-above formula is highly dependent on our sensor fusion setup system.
+above formula is highly dependent on our sensor setup system.
 
 
 
