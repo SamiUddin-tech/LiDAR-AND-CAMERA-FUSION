@@ -65,7 +65,7 @@ To perform early fusion I performed three steps:
 
 ### 1. Projecting a Point Cloud to an Image
 
-So, here is the Self Driving Car Setup from KITTI Vision Suit, I worked well for learning sensor Fusion.
+So, here is the Self Driving Car Setup from KITTI Vision Suit, It works well for learning sensor Fusion.
 
 ![urn cambridge org id binary 20210826010555926-0258 S037346332100028X S037346332100028X_fig1](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/7ff632ea-3335-4f0c-b776-6d2004535419)
 
