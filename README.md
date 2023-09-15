@@ -98,6 +98,5 @@ Calibration is the process of teaching your camera how to translate a point in t
 
 ![Screenshot from 2023-09-15 17-29-21](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/84b24ca4-326a-4ded-8e9a-a1817fa74644)
 
-In this above, f is is the focal length (fx, fy) and c is the optical center (cx, cy).
-
+In this above, f is is the focal length (fx, fy) and c is the optical center (cx, cy). This matrix is used to transform from the camera's perspective (camera frame) to the image's perspective (image frame).
 
