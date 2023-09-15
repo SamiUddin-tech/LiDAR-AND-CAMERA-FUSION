@@ -82,5 +82,4 @@ And to do this projection, Information of physical position of sensors in needed
 So here is the list of Sensors we are using data of.
 1. 1 X [Velodyne HDL-64E Laserscanner](https://velodynelidar.com/blog/hdl-64e-lidar-sensor-retires/)
 2. 4 X [FLIR Point Cameras](https://www.flir.eu/products/flea3-usb3/)
-3. LiDAR and cameras use different systems to see and aren't in the same spot.
-
+3. LiDAR and cameras use different systems to see and aren't in the same spot: it means that we're seeing an obstacle from 2 different positions with two different frames. We'll therefore need to convert the point seen by the LiDAR to the camera space, and then to the image space!
