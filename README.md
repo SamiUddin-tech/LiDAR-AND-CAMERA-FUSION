@@ -84,11 +84,15 @@ So here is the list of Sensors we are using data of.
 2. 4 X [FLIR Point Cameras](https://www.flir.eu/products/flea3-usb3/)
 3. LiDAR and cameras use different systems to see and aren't in the same spot: it means that we're seeing an obstacle from 2 different positions with two different frames. We'll therefore need to convert the point seen by the LiDAR to the camera space, and then to the image space!
 
-**The Formula**: Here is the formula to convert a point X in 3D into a point Y in 2D.
+**The Formula:**: Here is the formula to convert a point X in 3D into a point Y in 2D.
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/d48ba8f8-98b9-4651-b1ce-9b6b1a2c9bea)
 
 above formula is highly dependent on our sensor setup system.
 
+**P:**
 
+A camera produces images by capturing light from the environment through its lens and converting it into a digital image. When buying a camera, it's typically pre-calibrated, meaning it's set up to produce images accurately without requiring you to adjust complex settings right away. This calibration ensures that the images you take are properly exposed and in focus.
+
+Calibration is the process of teaching your camera how to translate a point in the real world (3D) into a pixel on the camera sensor. The intrinsic calibration matrix, the P, is a critical component in this process. It helps the camera understand the relationship between the 3D world and the 2D image it captures.
 
