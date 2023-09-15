@@ -71,5 +71,11 @@ So, here is the Self Driving Car Setup from KITTI Vision Suit, I worked well for
 
 This Self Driving Car setup has one Valodyne LiDAR (HDL-64E Laser Scanner), and a total of 4 cameras, 2 color cameras and 2 Grayscale cameras, Two cameras (Color and Gray) on left side, two cameras (Color and Gray) on right side. The sensors orientation is not the same, coordinate system is different and psition is also different. 
 
+**Projecting a LiDAR Point (3D) in a Camera Image (2D)**
+
+Considering an image, and a point cloud, and this is the output of projection!
+
+![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/ab873a45-ac60-4222-8c17-62f370d7c3aa)
+
 
 
