@@ -94,9 +94,24 @@ above formula is highly dependent on our sensor setup system.
 
 A camera produces images by capturing light from the environment through its lens and converting it into a digital image. When buying a camera, it's typically pre-calibrated, meaning it's set up to produce images accurately without requiring you to adjust complex settings right away. This calibration ensures that the images you take are properly exposed and in focus.
 
-Calibration is the process of teaching your camera how to translate a point in the real world (3D) into a pixel on the camera sensor. The intrinsic calibration matrix, the P, is a critical component in this process. It helps the camera understand the relationship between the 3D world and the 2D image it captures.
+Calibration is the process of teaching your camera how to translate a point in the real world (3D) into a pixel on the camera sensor. The intrinsic calibration matrix, the *P*, is a critical component in this process. It helps the camera understand the relationship between the 3D world and the 2D image it captures.
 
 ![Screenshot from 2023-09-15 17-29-21](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/84b24ca4-326a-4ded-8e9a-a1817fa74644)
 
 In above matrix, f is is the focal length (fx, fy) and c is the optical center (cx, cy). This matrix is used to transform from the camera's perspective (camera frame) to the image's perspective (image frame).
+
+*R0:*
+
+In stereo vision, we aim to make the left and right images line up perfectly, so when you draw a horizontal line across them, you're seeing the same objects aligned with each other.
+
+![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/48fcf638-4b26-4b9e-9d82-a7c6480ad607)
+
+We refer to that horizontal line as the "Epipolar Line."
+
+![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/5e70aa9d-d3f4-4b33-b1b2-dd24164cfb86)
+
+In Stereo Vision, we use the matrix *R0* to align the left and right images, making them match perfectly. This step isn't necessary with a single camera, but it's crucial for stereo vision to work correctly.
+
+
+
 
