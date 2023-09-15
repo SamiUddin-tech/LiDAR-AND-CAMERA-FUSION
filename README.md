@@ -110,7 +110,7 @@ We refer to that horizontal line as the "Epipolar Line."
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/5e70aa9d-d3f4-4b33-b1b2-dd24164cfb86)
 
-In Stereo Vision, we use the matrix *R0* to align the left and right images, making them match perfectly. This step isn't necessary with a single camera, but it's crucial for stereo vision to work correctly.
+In Stereo Vision, the matrix *R0* aligns the left and right images, making them match perfectly. This step isn't necessary with a single camera, but it's crucial for stereo vision to work correctly.
 
 
 
