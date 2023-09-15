@@ -69,7 +69,7 @@ So, here is the Self Driving Car Setup from [KITTI Vision Benchmark Suite](https
 
 ![urn cambridge org id binary 20210826010555926-0258 S037346332100028X S037346332100028X_fig1](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/7ff632ea-3335-4f0c-b776-6d2004535419)
 
-This Self Driving Car setup has one Valodyne LiDAR (HDL-64E Laser Scanner), and a total of 4 cameras, 2 color cameras and 2 Grayscale cameras, Two cameras (Color and Gray) on left side, two cameras (Color and Gray) on right side. The sensors orientation is not the same, coordinate system is different and psition is also different. 
+This Self Driving Car setup has one Valodyne LiDAR (HDL-64E Laser Scanner), and a total of 4 cameras, 2 color cameras and 2 Grayscale cameras, Two cameras (Color and Gray) on left side, two cameras (Color and Gray) on right side. The sensors orientation is not the same, coordinate system is different and psition is also different. https://velodynelidar.com/blog/hdl-64e-lidar-sensor-retires/
 
 **Projecting a LiDAR Point (3D) in a Camera Image (2D)**
 
@@ -77,4 +77,10 @@ Considering an image, and a point cloud, and this is the output of projection!
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/ab873a45-ac60-4222-8c17-62f370d7c3aa)
 
-And to do this projection, Information of physical position of sensors in needed, and how to convert from one to another.  
+And to do this projection, Information of physical position of sensors in needed, and how to convert from one to another. 
+
+So here is the list of Sensors we are using data of.
+1. 1 X [Velodyne HDL-64E Laserscanner](https://velodynelidar.com/blog/hdl-64e-lidar-sensor-retires/)
+2. 4 X [FLIR Point Cameras](https://www.flir.eu/products/flea3-usb3/)
+3. LiDAR and cameras use different systems to see and aren't in the same spot.
+
