@@ -77,5 +77,4 @@ Considering an image, and a point cloud, and this is the output of projection!
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/ab873a45-ac60-4222-8c17-62f370d7c3aa)
 
-
-
+And to do this projection, Information of physical position of sensors in needed, and how to convert from one to another.  
