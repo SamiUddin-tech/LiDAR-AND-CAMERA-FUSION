@@ -96,3 +96,8 @@ A camera produces images by capturing light from the environment through its len
 
 Calibration is the process of teaching your camera how to translate a point in the real world (3D) into a pixel on the camera sensor. The intrinsic calibration matrix, the P, is a critical component in this process. It helps the camera understand the relationship between the 3D world and the 2D image it captures.
 
+![Screenshot from 2023-09-15 17-29-21](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/84b24ca4-326a-4ded-8e9a-a1817fa74644)
+
+In this above, f is is the focal length (fx, fy) and c is the optical center (cx, cy).
+
+
