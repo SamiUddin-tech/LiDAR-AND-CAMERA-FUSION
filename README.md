@@ -86,7 +86,7 @@ So here is the list of Sensors we are using data of.
 2. 4 X [FLIR Point Cameras](https://www.flir.eu/products/flea3-usb3/)
 3. LiDAR and cameras use different systems to see and aren't in the same spot: it means that we're seeing an obstacle from 2 different positions with two different frames. We'll therefore need to convert the point seen by the LiDAR to the camera space, and then to the image space!
 
-**The Formula:**: Here is the formula to convert a point X in 3D into a point Y in 2D.
+**Projection Formula:** Here is the formula to convert a point X in 3D into a point Y in 2D.
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/d48ba8f8-98b9-4651-b1ce-9b6b1a2c9bea)
 
@@ -102,9 +102,9 @@ Calibration is the process of teaching your camera how to translate a point in t
 
 In above matrix, f is is the focal length (fx, fy) and c is the optical center (cx, cy). This matrix is used to transform from the camera's perspective (camera frame) to the image's perspective (image frame).
 
-*R0:*
+**R0:**
 
-In stereo vision, the aim is to make the left and right images line up perfectly, so that draws a horizontal line across them, below are the same objects aligned with each other.
+In stereo vision, the aim is to make the left and right images line up perfectly, it helps in drawing a horizontal line across them, below are the same objects aligned with each other.
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/48fcf638-4b26-4b9e-9d82-a7c6480ad607)
 
@@ -113,6 +113,26 @@ We refer to that horizontal line as the "Epipolar Line."
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/5e70aa9d-d3f4-4b33-b1b2-dd24164cfb86)
 
 In Stereo Vision, the matrix *R0* aligns the left and right images, making them match perfectly. This step isn't necessary with a single camera, but it's crucial for stereo vision to work correctly.
+
+**R0|t:**
+
+**X:**
+
+**Applying the Projection Formula:**
+
+### 2. Obstacle Detection in 2D
+
+This is what we do in object detection, given an image and output bounding boxes. And nothing more.
+
+
+
+### 3. Fusing the Results
+
+**Implementation of Object Detection and Sensor Fusion**
+
+
+## Late Fusion
+
 
 
 
