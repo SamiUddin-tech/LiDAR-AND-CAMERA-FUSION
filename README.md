@@ -104,7 +104,7 @@ In above matrix, f is is the focal length (fx, fy) and c is the optical center (
 
 *R0:*
 
-In stereo vision, we aim to make the left and right images line up perfectly, so when you draw a horizontal line across them, you're seeing the same objects aligned with each other.
+In stereo vision, the aim is to make the left and right images line up perfectly, so that draws a horizontal line across them, below are the same objects aligned with each other.
 
 ![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/48fcf638-4b26-4b9e-9d82-a7c6480ad607)
 
