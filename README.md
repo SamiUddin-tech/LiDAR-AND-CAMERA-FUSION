@@ -120,6 +120,12 @@ R|t is the transformation from the Velodyne frame of reference to the Camera fra
 
 In the above picture, Valedyne LiDAR Coordinate system is different from Camera Coordinate system. 
 
+So we have to go from Velodyne coordinate system to Camera coordinate system, and this is called rotation. 
+
+![2023_09_18_0p8_Kleki(1)](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/82769ce2-df3f-47c1-8abf-e029496ec145)
+
+
+
 **X:**
 
 **Applying the Projection Formula:**
