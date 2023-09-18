@@ -116,6 +116,10 @@ In Stereo Vision, the matrix *R0* aligns the left and right images, making them 
 
 R|t is the transformation from the Velodyne frame of reference to the Camera frame of reference. It describes how data measured in the Velodyne's coordinate system can be translated and rotated to align with the coordinate system of the Camera.
 
+![Untitled Diagram drawio(1)](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/e2b5e34c-1d3b-46f5-ab4f-c9e028c6fef9)
+
+In the above picture, Valedyne LiDAR Coordinate system is different from Camera Coordinate system. 
+
 **X:**
 
 **Applying the Projection Formula:**
