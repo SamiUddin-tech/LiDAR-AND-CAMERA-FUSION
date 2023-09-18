@@ -122,11 +122,17 @@ In the above picture, Valedyne LiDAR Coordinate system is different from Camera 
 
 So we have to go from Velodyne coordinate system to Camera coordinate system, and this is called rotation. 
 
-![2023_09_18_0p8_Kleki(1)](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/82769ce2-df3f-47c1-8abf-e029496ec145)
+![2023_09_18_0pg_Kleki](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/09d8797a-1d8e-457f-8deb-a2d855e7b979)
 
+And to move the coordinate system physically is called translation.
 
+![2023_09_18_0pi_Kleki](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/e5151d4e-3a69-424b-84bc-08c894c17927)
 
-**X:**
+**Keypoints:**
+1. To project a point obtained from a LiDAR in an image, we need to understand clearly how are our sensors positioned, and what are their coordinate system.
+2. The projection formula is Y = P * R0 * R|t * X
+3. R|t is the matrix that convert a point from the Velodyne Frame to the Image frame. R0 is a matrix to rectify the stereo cameras. P is the intrinsic calibration matrix to take a point from the camera frame to the image (pixel).
+
 
 **Applying the Projection Formula:**
 
