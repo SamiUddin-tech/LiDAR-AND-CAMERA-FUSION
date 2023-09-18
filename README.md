@@ -69,7 +69,6 @@ To perform early fusion I performed three steps:
 
 So, here is the Self Driving Car Setup from [KITTI Vision Benchmark Suite](https://www.cvlibs.net/datasets/kitti/setup.php), It works well for learning sensor Fusion.
 
-![urn cambridge org id binary 20210826010555926-0258 S037346332100028X S037346332100028X_fig1](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/7ff632ea-3335-4f0c-b776-6d2004535419)
 
 This Self Driving Car setup has one Valodyne LiDAR (HDL-64E Laser Scanner), and a total of 4 cameras, 2 color cameras and 2 Grayscale cameras, Two cameras (Color and Gray) on left side, two cameras (Color and Gray) on right side. The sensors orientation is not the same, coordinate system is different and psition is also different. https://velodynelidar.com/blog/hdl-64e-lidar-sensor-retires/
 
@@ -77,7 +76,7 @@ This Self Driving Car setup has one Valodyne LiDAR (HDL-64E Laser Scanner), and 
 
 Considering an image, and a point cloud, and this is the output of projection!
 
-![image](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/ab873a45-ac60-4222-8c17-62f370d7c3aa)
+![Untitled Diagram drawio](https://github.com/SamiUddin-tech/LiDAR_Camera_Fusion/assets/81253183/efb273ae-f2ae-4842-8365-a02be995dab5)
 
 And to do this projection, Information of physical position of sensors in needed, and how to convert from one to another. 
 
