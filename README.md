@@ -59,7 +59,7 @@ A self-driving car typically has:
 
 ## 2. Early Fusion
 
-To perform early fusion I performed three steps:
+To do early fusion I performed three steps:
 
 1. Project the Point Clouds (3D) to the Image(2D)
 2. Detect Obstacles in 2D (Camera)
@@ -137,6 +137,11 @@ And to move the coordinate system physically is called translation.
 
 **Applying the Projection Formula:**
 
+
+**Projecting a 3D Point to 2D Image**
+
+**
+
 ### 2. Obstacle Detection in 2D
 
 This is what we do in object detection, given an image and output bounding boxes. And nothing more.
@@ -150,7 +155,21 @@ This is what we do in object detection, given an image and output bounding boxes
 
 ## Late Fusion
 
+To do the late fusion, I performed 5 steps:
 
+1. Detecting objects in 2D
+2. Detecting objects in 3D
+3. Projecting the 3D Bounding Box in the Image
+4. Fusing the Bounding Boxes
+5. Building the Ultimate 3D Object
 
+### 1. Detect objects in 2D
 
+### 2. Detect objects in 3D
+
+### 3. Project the 3D Bounding Box in the Image
+
+### 4. Fuse the Bounding Boxes
+
+### 5. Build the Ultimate 3D Object
 
