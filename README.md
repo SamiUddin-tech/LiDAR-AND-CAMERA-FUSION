@@ -1,5 +1,5 @@
 # LiDAR_Camera_Fusion
-This project focuses on combining LiDAR and camera systems, bridging 2D and 3D data, and gaining a deep understanding of the advanced Sensor Fusion Algorithms used by top self-driving car companies.
+In this project my focus is on understanding the combination the LiDAR and camera systems, bridging 2D and 3D data, and gaining a deep understanding of the advanced Sensor Fusion Algorithms used by top self-driving car companies.
 
 In this Project, I practiced some most advanced skills that Self Driving Car Engineers use to fuse LiDARs with Cameras.
 LiDAR is used more and more in almost every robotics startup, and merging it with a camera is really cool!
