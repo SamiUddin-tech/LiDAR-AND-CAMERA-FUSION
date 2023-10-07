@@ -141,7 +141,6 @@ And to move the coordinate system physically is called translation.
 
 **Projecting a 3D Point to 2D Image**
 
-**
 
 ### 2. Obstacle Detection in 2D
 
